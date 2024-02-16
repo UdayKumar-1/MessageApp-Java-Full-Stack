@@ -1,0 +1,221 @@
+.MainSidebar{
+  width: 380px;
+  display: flex;
+}
+.MessageBody{
+  background:white;
+  z-index:999;
+}
+.sidebarSlider{
+  height: 100vh;
+  overflow-y: auto;
+}
+.sidebarSlider::-webkit-scrollbar{
+  display: none;
+}
+.hrClass{
+  margin-top: 50px;
+  position: fixed;
+  color: rgba(0,0,0,0.2);
+}
+.MessageHeadMainBar{
+  width: 1050px;
+  position: fixed;
+  background:white;
+  z-index:999;
+}
+.MessageHead{
+  padding-top:10px;
+  padding-left:10px;
+}
+.ImageNav{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.NameNav{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sendbtn{
+  background: none;
+  border: none;
+  width:40px;
+  height:40px;
+  font-size: 30px;
+  margin-left:20px;
+  cursor:pointer;
+} 
+.bottomMessage{
+  margin-top: 50px;
+  width: 500px;
+}
+.pmessageMain{
+  width: 1050px;
+  height: 100vh;
+  overflow-y: auto;
+}
+.pmessageMain::-webkit-scrollbar{
+  display: none;
+}
+.SingleMessage{
+  margin-top:8%;
+  width: 300px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+}
+
+.MessageFlexright{
+  display:flex;
+  position:relative;
+}
+.MessageFlexleft{
+  display:flex;
+  position:relative;
+}
+.onemessageright{
+  width:248px;
+  height:40px;
+  background-color: skyblue;
+  transform:translateX(750px);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px
+}
+.onemessageleft{
+  width:270px;
+  background-color: purple;
+  color:white;
+  font-family:cursive;
+  margin: 10px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.NavSide{
+  display: flex;
+}
+
+.PostImageleft{
+  position:relative;
+  width: 273px;
+  height: 300px;
+  margin-left:12px;
+  border-radius: 5px;
+  object-fit:cover;
+}
+.ImageRight{
+  margin-top:10px;
+  width:250px;
+  height:300px;
+  object-fit:cover;
+  border-radius:5px;
+  transform:translateX(750px);
+}
+.MessageMainPic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit:cover;
+}
+
+.MessageSidebar{
+  width: 470px;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  border:none;
+  background:none;
+}
+.MessageSidebar:hover{
+  padding: 8px;
+  background-color: skyblue;
+  border-radius: 5px;
+}
+.MessageName{
+  margin-left: 10px;
+  text-align:left;
+}
+.HeadingSidebar{
+  color: black;
+}
+.MessageSubHead{
+  color: black;
+}
+
+.MessageBody{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+.footerInput {
+  padding: 5px;
+  width: 950px;
+  border: 1px solid rgba(0,0,0,0.5);
+  transform:translateX(20px);
+  border-radius: 5px;
+  color: black;
+  padding-left: 20px; 
+}
+.footerInput::placeholder{
+  font-size: 18px;
+  color:black;
+}
+.messages{
+  max-width:1000x;
+}
+.VideoUpload {
+  opacity:0;
+  cursor: pointer;
+  position:fixed;
+  margin-left:-260px;
+}
+.Gallery{
+  background: none;
+  border: none;
+  font-size: 30px;
+  position:fixed;
+  margin-top:-24px;
+  margin-left:-28px;
+  color: white;
+}
+.galleryIcon{
+  font-size: 20px;
+}
+.NoData{
+  width: 470px;
+  display: flex;
+  margin-left: 10px;
+  font-size:20px;
+  padding:5px 0px 5px 40px;
+  text-decoration: none;
+}
+.deleteButtonTagright{
+  position:absolute;
+  text-align:center;
+  margin-left:977px;
+  margin-top:-10px;
+  width:30px;
+  height:30px;
+}
+.deleteButtonTagleft{
+  position:absolute;
+  text-align:center;
+  margin-top:-10px;
+  margin-left:262px;
+  width:30px;
+  height:30px;
+}
+
+.imgdeleteBtnleft{
+  transform: translateX(-5px) translateY(-3px);
+}
+.imgdeleteBtnright{
+  transform: translateX(-5px) translateY(-3px);
+}
